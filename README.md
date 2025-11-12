@@ -128,8 +128,7 @@ python src/inference.py --model models/unet_best.h5 --input data/images/ --batch
 
 - Application scripts (project root): End-to-end tasks you run.
   - `setup_real_data.py`: Download/organize real datasets (e.g., DeepGlobe) into `data/real/`.
-  - `train_resnet34.py`: Orchestrates training using the library (loads data → builds model → trains → saves best model).
-  - `test_pretrained_model.py`: Quick sanity check that the model builds and runs a forward pass.
+  - `train_resnet50.py`: Orchestrates training using the library (loads data → builds model → trains → saves best model).
 
 Think: `src/` = toolbox; root scripts = recipes that use the tools to complete a job.
 
@@ -166,7 +165,6 @@ Putting it together: the model first compresses the image into abstract features
 - **LandCover.ai**: European land cover dataset
 
 ## Notes
-- This project is separate from the mlx framework (which doesn't support image data)
 - Use GPU for faster training (check with `nvidia-smi` or TensorFlow GPU detection)
 - Start with small image patches (256x256 or 512x512) for faster iteration
 
