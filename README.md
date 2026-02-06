@@ -6,10 +6,6 @@ This project trains (or fine-tunes) a deep learning model to perform semantic se
 ## Project Structure
 ```
 satellite-segmentation/
-├── notebooks/                    # Jupyter notebooks
-│   ├── 01_data_exploration.ipynb  # Data download & exploration
-│   ├── 02_model_training.ipynb    # Model training & evaluation
-│   └── 03_inference.ipynb         # Inference & prediction
 ├── src/                          # Python source modules
 │   ├── data_loader.py             # Data loading & preprocessing
 │   ├── models.py                  # Model architectures
@@ -21,13 +17,6 @@ satellite-segmentation/
 ├── models/                       # Saved trained models (.h5)
 ├── results/                      # Training results, plots, predictions
 ├── logs/                         # TensorBoard logs
-├── documentation/                # Project documentation
-│   ├── OVERFITTING_JOURNEY.md     # Debugging & learning process
-│   ├── PRESENTATION_OUTLINE.md    # Slide deck content
-│   ├── PRESENTATION_STRATEGY.md   # How to present slides + code
-│   ├── PRETRAINED_MODEL_INFO.md   # Transfer learning explanation
-│   ├── CURRENT_BEST_SETUP.md      # Production code overview
-│   └── ... (other documentation)
 ├── requirements.txt              # Project dependencies
 └── README.md                    # This file
 ```
