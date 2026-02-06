@@ -17,7 +17,8 @@ satellite-segmentation/
 ├── models/                       # Saved trained models (.h5)
 ├── results/                      # Training results, plots, predictions
 ├── logs/                         # TensorBoard logs
-├── train_resnet_50.py            #training script           
+├── setup_real_data.py            #Setting up real data                         
+├── train_resnet_50.py            #Training script           
 ├── requirements.txt             # Project dependencies
 └── README.md                    # This file
 ```
